@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="YourStyle_pagweb:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/YourStyle_pagweb_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="YourStyle_pagweb/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="YourStyle_pagweb" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="PrimeFaces-5.2" />
+          <element id="library" level="project" name="BootsFaces-OSP-1.0.2-dist-default" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
